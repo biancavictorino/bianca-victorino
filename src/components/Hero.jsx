@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
         <div>
           <p className='text-md leading-7 lg:text-md lg:w-1/2'>
-            Weaving <a href="" className='underline decoration-solid text-primary-color'>beautiful design</a> with <a href="" className='underline decoration-solid text-primary-color'>functional code</a> is my creative passion. I love crafting interactive websites that not only look stunning, but also engage users and deliver a seamless experience.
+            Weaving <a href="#codes" className='underline decoration-solid text-primary-color'>beautiful design</a> with <a href="#codes" className='underline decoration-solid text-primary-color'>functional code</a> is my creative passion. I love crafting interactive websites that not only look stunning, but also engage users and deliver a seamless experience.
           </p>
         </div>
         <div className='absolute inset-0 bg-gradient-overlay'></div>

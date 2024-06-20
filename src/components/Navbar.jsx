@@ -16,12 +16,12 @@ const Navbar = () => {
         </div>
         <div className='flex flex-row items-center gap-5 md:gap-10'>
             <div className='hidden md:flex md:flex-row md:gap-9'>
-                <a href="" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>My Story</a>
-                <a href="" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>Works</a>
-                <a href="" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>Contact</a>
+                <a href="#story" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>My Story</a>
+                <a href="#codes" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>Works</a>
+                <a href="#contact" className='text-sm font-normal hover:text-primary-color duration-200 delay-100'>Contact</a>
             </div>
             <div>
-                <button className='text-xs md:text-sm border px-4 py-2 rounded-full border-primary-color hover:shadow-lg hover:shadow-pink-200 duration-200 delay-100'>Download CV</button>
+                <button className='text-xs md:text-sm border px-4 py-2 rounded-full border-primary-color hover:shadow-lg hover:shadow-pink-200 transform transition-transform hover:-translate-y-1 duration-200 delay-100'>Download CV</button>
             </div>
             <RxHamburgerMenu onClick={handleOpen} size={20} className='md:hidden hover:text-primary-color duration-200 delay-100' />
         </div>
@@ -30,9 +30,9 @@ const Navbar = () => {
                 <svg onClick={handleOpen} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='text-text-color h-6 w-6 absolute top-6 right-8 cursor-pointer hover:text-primary-color hover:scale-110 transition ease-in-out duration-200'>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                 </svg>
-                <a href="" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>My Story</a>
-                <a href="" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>Works</a>
-                <a href="" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>Contact</a>
+                <a href="#story" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>My Story</a>
+                <a href="#codes" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>Works</a>
+                <a href="#contact" className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200'>Contact</a>
         </div>
         
     </div>

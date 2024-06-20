@@ -4,7 +4,7 @@ import { GiPickOfDestiny } from 'react-icons/gi'
 
 const CodeWorks = () => {
   return (
-    <div className='px-9 py-20 h-auto lg:px-28 overflow-hidden flex flex-col gap-8 lg:flex-row'>
+    <div id='codes' className='px-9 py-20 h-auto lg:px-28 overflow-hidden flex flex-col gap-8 lg:flex-row'>
         <div className='flex flex-col gap-3 lg:w-2/5'>
             <h1 className='text-3xl'>What I code?</h1>
             <p className='text-sm leading-8'>I love coding responsive and interactive websites that blend creativity with functionality, aiming to create engaging user experiences online.</p>

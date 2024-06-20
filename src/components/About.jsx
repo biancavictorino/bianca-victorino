@@ -4,7 +4,7 @@ import Socials from './Socials'
 
 const About = () => {
   return (
-    <div className='relative px-9 py-10 lg:px-28 flex flex-col h-auto gap-10 justify-around lg:flex-row lg:h-screen lg:items-center'>
+    <div id='story' className='relative px-9 py-10 lg:px-28 flex flex-col h-auto gap-10 justify-around lg:flex-row lg:h-screen lg:items-center'>
         <div className='pt-10 relative flex flex-col gap-4 lg:items-start lg:max-h-screen lg:bottom-36'>
             <div className='flex flex-col gap-1 font-light text-5xl'>
                 <h1>It's me</h1>
