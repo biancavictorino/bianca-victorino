@@ -8,7 +8,7 @@ const Hero = () => {
           <h1>In love with design & code</h1>
         </div>
         <div>
-          <p className='text-sm leading-7 lg:text-md lg:w-1/2'>
+          <p className='text-md leading-7 lg:text-md lg:w-1/2'>
             Weaving <a href="" className='underline decoration-solid text-primary-color'>beautiful design</a> with <a href="" className='underline decoration-solid text-primary-color'>functional code</a> is my creative passion. I love crafting interactive websites that not only look stunning, but also engage users and deliver a seamless experience.
           </p>
         </div>
