@@ -16,7 +16,7 @@ const CodeWorks = () => {
                         <img src={codes.image} className='h-80 w-80' alt="" />
                         <div className='flex flex-col gap-2 justify-center w-80'>
                             <h1 className='text-lg font-medium'>{codes.title}</h1>
-                            <p className='font-light leading-6 text-sm'>{codes.description}</p>
+                            <p className='font-normal leading-6 text-sm'>{codes.description}</p>
                             <a href={codes.link} className='underline decoration-solid font-light hover:text-primary-color duration-200 delay-100'>View Code</a>
                         </div>
                     </div>
