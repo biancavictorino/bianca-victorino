@@ -1,6 +1,6 @@
 import Work5 from '../assets/derma-clinic.png'
 import Work6 from '../assets/mockup.png'
-import Work7 from '../assets/magazine.png'
+import Work7 from '../assets/magazine-cover.png'
 import Work8 from '../assets/sony.png'
 
 
