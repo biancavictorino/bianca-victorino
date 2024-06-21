@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className='flex flex-row items-center gap-5 md:gap-10'>
             <div className='hidden md:flex md:flex-row md:gap-9'>
                 <a onClick={() => scrollToSection('story')} className='text-sm font-normal hover:text-primary-color duration-200 delay-100 cursor-pointer'>My Story</a>
-                <a onClick={() => scrollToSection('codes')} className='text-sm font-normal hover:text-primary-color duration-200 delay-100 cursor-pointer'>Works</a>
+                <a onClick={() => scrollToSection('works')} className='text-sm font-normal hover:text-primary-color duration-200 delay-100 cursor-pointer'>Works</a>
                 <a onClick={() => scrollToSection('contact')} className='text-sm font-normal hover:text-primary-color duration-200 delay-100 cursor-pointer'>Contact</a>
             </div>
             <div>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                 </svg>
                 <a onClick={() => scrollToSection('story')} className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200 cursor-pointer'>My Story</a>
-                <a onClick={() => scrollToSection('codes')} className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200 cursor-pointer'>Works</a>
+                <a onClick={() => scrollToSection('works')} className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200 cursor-pointer'>Works</a>
                 <a onClick={() => scrollToSection('contact')} className='text-sm font-normal hover:text-primary-color transition ease-in-out duration-200 cursor-pointer'>Contact</a>
         </div>
         

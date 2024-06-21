@@ -1,5 +1,5 @@
 import React from 'react'
-import { Code } from '../Data/Code'
+import { Design } from '../Data/Design'
 
 const DesignWorks = () => {
   return (
@@ -10,13 +10,13 @@ const DesignWorks = () => {
         </div>
         <div className='works flex flex-col gap-9 lg:grid lg:grid-rows-2 lg:grid-flow-col lg:pl-28'>
             {
-                Code.map(codes => (
+                Design.map(designs => (
                     <div className='flex flex-col gap-2 items-center'>
-                        <img src={codes.image} className='h-80 w-80' alt="" />
+                        <img src={designs.image} className='h-80 w-80' alt="" />
                         <div className='flex flex-col gap-2 justify-center w-80'>
-                            <h1 className='text-lg font-medium'>{codes.title}</h1>
-                            <p className='font-normal leading-6 text-sm'>{codes.description}</p>
-                            <a href={codes.link} className='underline decoration-solid font-light hover:text-primary-color duration-200 delay-100'>View Code</a>
+                            <h1 className='text-lg font-medium'>{designs.title}</h1>
+                            <p className='font-normal leading-6 text-sm'>{designs.description}</p>
+                            <p className='font-light text-slate-400 duration-200 delay-100'>{designs.type}</p>
                         </div>
                     </div>
                 ))
