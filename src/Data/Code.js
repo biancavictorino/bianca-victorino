@@ -9,7 +9,7 @@ export const Code = [
         id: 1,
         image: Work1,
         title: 'Elecar',
-        description: 'Sleek and modern static website designed by Kane Sakaldere Gabana to showcase electric vehicles.',
+        description: 'Modern website designed by Kane Sakaldere Gabana to showcase electric vehicles.',
         link: 'https://github.com/biancavictorino/elecar-website'
     },
     {
@@ -23,14 +23,14 @@ export const Code = [
         id: 3,
         image: Work3,
         title: 'Burger Garage',
-        description: 'Static website developed in collaboration with Jhon Eric Aton. It features mouth-watering burgers.',
+        description: 'Burger website developed in collaboration with Jhon Eric Aton.',
         link: 'https://github.com/biancavictorino/burger-website'
     },
     {
         id: 4,
         image: Work4,
         title: 'Scoops',
-        description: 'A delightful static website dedicated to ice cream lovers. Designed with a vibrant and fun aesthetic',
+        description: 'Static website dedicated to ice cream lovers. Designed with a vibrant and fun aesthetic',
         link: 'https://github.com/biancavictorino/scoops'
     }
 ]

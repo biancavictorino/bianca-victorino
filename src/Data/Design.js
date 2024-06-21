@@ -9,14 +9,14 @@ export const Design = [
         id: 1,
         image: Work5,
         title: 'Web-Based MIS for Derma Clinic',
-        description: 'Collaboratively designed an MIS for a dermatology clinic, streamlining appointments, records & billing.',
+        description: 'Collaboratively designed an MIS for a dermatology clinic.',
         type: 'UI/UX Design'
     },
     {
         id: 2,
         image: Work6,
         title: 'Facial Wash Mockups',
-        description: 'Among my mockup designs, these three facial wash concepts are my personal favorite.',
+        description: 'These three facial wash concepts are my personal favorite.',
         type: 'Mockup Design'
     },
     {

@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a onClick={() => scrollToSection('contact')} className='text-sm font-normal hover:text-primary-color duration-200 delay-100 cursor-pointer'>Contact</a>
             </div>
             <div>
-                <button className='text-xs md:text-sm border px-4 py-2 rounded-full border-primary-color hover:shadow-lg hover:shadow-pink-200 transform transition-transform hover:-translate-y-1 duration-200 delay-100'>Download CV</button>
+                <button className='text-xs md:text-sm border px-4 py-2 rounded-full border-primary-color hover:shadow-lg hover:shadow-pink-200 transform transition-transform hover:-translate-y-1 duration-200 delay-100'><a href="https://drive.google.com/file/d/1WUEF6gvZ8j3VXl1qOMU6E9nxUeMklMqT/view?usp=sharing">Download CV</a></button>
             </div>
             <RxHamburgerMenu onClick={handleOpen} size={20} className='md:hidden hover:text-primary-color duration-200 delay-100' />
         </div>
