@@ -17,7 +17,7 @@ const CodeWorks = () => {
                         <div className='flex flex-col gap-2 justify-center w-80'>
                             <h1 className='text-lg font-medium'>{codes.title}</h1>
                             <p className='font-normal leading-6 text-sm text-justify'>{codes.description}</p>
-                            <a href={codes.link} className='underline decoration-solid font-light hover:text-primary-color duration-200 delay-100'>View Code</a>
+                            <a href={codes.link} className='underline decoration-solid font-light hover:text-primary-color duration-200 delay-100'>View</a>
                         </div>
                     </div>
                 ))

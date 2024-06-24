@@ -10,27 +10,27 @@ export const Code = [
         image: Work1,
         title: 'Elecar',
         description: 'Modern website designed by Kane Sakaldere Gabana to showcase electric vehicles.',
-        link: 'https://github.com/biancavictorino/elecar-website'
+        link: 'https://elecar-website-one.vercel.app/'
     },
     {
         id: 2,
         image: Work2,
         title: 'CheckList',
         description: 'A user-friendly to-do list application built with ReactJS.',
-        link: 'https://github.com/biancavictorino/todo-app'
+        link: 'https://todo-app-liart-eta.vercel.app/'
     },
     {
         id: 3,
         image: Work3,
         title: 'Burger Garage',
         description: 'Burger website developed in collaboration with Jhon Eric Aton.',
-        link: 'https://github.com/biancavictorino/burger-website'
+        link: 'https://burger-garage.vercel.app/'
     },
     {
         id: 4,
         image: Work4,
         title: 'Scoops',
         description: 'Static website dedicated to ice cream lovers. Designed with a vibrant and fun aesthetic',
-        link: 'https://github.com/biancavictorino/scoops'
+        link: 'https://scoops-sandy.vercel.app/'
     }
 ]
